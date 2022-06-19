@@ -1,0 +1,27 @@
+.centerfold {
+  display: flex;
+  height: 1100px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  border: solid black;
+  width: 500px;
+  height: 500px;
+  display: grid;
+}
+.buttons {
+  display: flex;
+  margin: 16px;
+  gap: 16px;
+  justify-content: center;
+}
+.title {
+  margin: 16px;
+}
