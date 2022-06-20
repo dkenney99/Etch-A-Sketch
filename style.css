@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(201, 199, 199);
+}
 .centerfold {
   display: flex;
   height: 1100px;
@@ -10,10 +13,11 @@
   justify-content: center;
   align-items: center;
 }
-.board {
+#board {
+  background-color: white;
   border: solid black;
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   display: grid;
 }
 .buttons {
@@ -23,5 +27,8 @@
   justify-content: center;
 }
 .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 16px;
+  font-weight: bolder;
+  font-size: larger;
 }
